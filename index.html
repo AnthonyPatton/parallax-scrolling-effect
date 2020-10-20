@@ -3,26 +3,70 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Slide</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/jpg" href="images/alpine-clouds.jpg">
-    <title>Parallax Slide</title>
+    <link href="" rel="">
+    <link href="" rel="">
   </head>
   <body>
+    <a name="home"></a>
   <!--- Start Navigation -->
+          <script src="js/jquery-3.5.1.min.js"></script>
+          <script src=""></script>
+
+          <div class="nav-outer">
+            <div class="nav-wrap">
+              <nav class="navigation">
+                <div class="logo"><img src="images/fakeCompany.png"</div>
+                <div class'nav' nav-menu-style="yoga">
+                  <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+
+                </div>
+              </nav>
+            </div>
+          </div>
+      <div class="nav-clear"></div>
   <!--- End Navigation -->
+      <div class="clearfix"></div>
   <!--- Start Slider -->
-  <!--- ADD IMAGE SLIDES HERE -->  
-    <h1>Space</h1>
-
-    <section class="parallax">
-      <div class="parallax-inner">
-
-        <h2>Space</h2>
-
-      </div>
-    </section>
-
-      <h1>Space</h1>
+          <script src=""></script><!--For Image Slider-->
+          <div class="slide-wrap">
+  <!--- ADD IMAGE SLIDES HERE -->
+          
+        </div>
+          <script type="text/javascript">
+              $('.slider1').bxSlider({
+                  mode: 'fade',
+                  captions: false,
+                  auto: true,
+                  pager: false,
+              });
+              $('.slider2').bxSlider({            
+                  pager: false,
+                  captions: true,
+                  maxSlides: 3,
+                  minSlides: 1,
+                  slideWidth: 230,
+                  slideMargin: 10
+              });
+              $('.slider3').bxSlider({
+                  mode: 'fade',
+                  captions: false,
+                  auto: true,
+                  pager: false,
+              });
+          
+          
+          
+          </script>
+    
     
   </body>
 </html>
