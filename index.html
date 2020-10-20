@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parallax Slide</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" type="image/jpg" href="images/alpine-clouds.jpg">
-    <link href="" rel="">
-    <link href="" rel="">
+    <link rel="shortcut icon" type="image/jpg" href="images/coffeetime.jpg">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
   </head>
   <body>
     <a name="home"></a>
   <!--- Start Navigation -->
-          <script src="js/jquery-3.5.1.min.js"></script>
-          <script src=""></script>
+          <!--<script src="js/jquery-3.5.1.min.js"></script> -->
+          <script src="js/jquery-1.11.2.min.js"></script>
+          <script src="js/main.js"></script>
 
           <div class="nav-outer">
             <div class="nav-wrap">
@@ -36,10 +37,16 @@
   <!--- End Navigation -->
       <div class="clearfix"></div>
   <!--- Start Slider -->
-          <script src=""></script><!--For Image Slider-->
+          <script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
           <div class="slide-wrap">
   <!--- ADD IMAGE SLIDES HERE -->
-          
+              <section class="slider">
+                <ul class="slider1">
+                  <li><img src="/images/alpine-clouds.jpg"></li>
+                  <li><img src="/images/Seattle Skyline.jpeg"></li>
+                  <li><img src="/images/alpine-clouds.jpg"></li>
+                </ul>
+              </section>
         </div>
           <script type="text/javascript">
               $('.slider1').bxSlider({
@@ -62,11 +69,35 @@
                   auto: true,
                   pager: false,
               });
-          
-          
-          
           </script>
-    
+<!-- End Slider -->
+<a name="about">
+<!-- Start Banner Wrapper -->
+    <div id="banner-wrapper">
+      <h1>Welcom To Our Website</h1>
+      <div class="one-half">
+          <h3>Heading Title Section</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem repellendus minima saepe eius voluptas magnam laboriosam sed omnis assumenda consectetur alias tempore, iusto, accusamus aliquid nisi. Impedit, atque excepturi.
+          </p>
+      </div>
+      <div class="one-half">
+        <h3>Heading Title Section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem repellendus minima saepe eius voluptas magnam laboriosam sed omnis assumenda consectetur alias tempore, iusto, accusamus aliquid nisi. Impedit, atque excepturi.</p>
+      </div>
+    </div>
+<!-- End Banner Wrapper --> 
+<!-- Start Parallax Section --> 
+    <section class="parallax-1">
+        <div class="parallax-inner">
+            <section class="one-third">
+              <h3>Heading Title</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem repellendus minima saepe eius voluptas magnam laboriosam sed omnis assumenda consectetur alias tempore, iusto, accusamus aliquid nisi. Impedit, atque excepturi.
+              </p>
+            </section>
+        </div>
+    </section>
+<!-- End Parallax Section -->   
+</a>    
     
   </body>
 </html>
