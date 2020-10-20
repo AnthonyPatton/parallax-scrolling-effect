@@ -57,7 +57,7 @@ img {
   height: 71px;
   width: 40px;
   z-index: -1;
-  transition: all 0.7s;
+  transition: all 1.9s;
 }
 .slider .bx-wrapper:hover .bx-controls-direction a {
   z-index: 5;
@@ -71,7 +71,7 @@ img {
   opacity: 0.6;
 }
 .slider .bx-wrapper .bx-next {
-  background: #000 url("images/right-arrow-white.png") no-repeat 10px 12px;
+  background: #000 url("images/right-arrow-white.png") no-repeat 7px 12px;
   right: 0px;
   opacity: 0.3;
 }
@@ -111,7 +111,7 @@ img {
 
 /*--- Start Parallax Section --*/
 .parallax-1 {
-  background: url(images/Seattle\ Skyline.jpeg) repeat fixed 100%;
+  background: url(images/alpine-clouds.jpg) repeat fixed 100%;
   text-align: center;
 }
 .parallax-inner {
