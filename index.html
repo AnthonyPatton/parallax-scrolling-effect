@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Author Anthony Patton. Just a mock up of a site using parallax. -->
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -18,7 +19,7 @@
           <div class="nav-outer">
           <div class="nav-wrap">
             <nav class="navigation">
-              <div class="logo"><img src="images/imageHand.png"></div>
+              <!--<div class="logo"><img src="images/incLogo.png"></div>--> 
               <div class='nav' nav-menu-style="yoga">
                 <ul class="nav-menu">
                   <li><a href="#home">Home</a></li>
@@ -37,12 +38,11 @@
   <!--- Start Slider -->
           <script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
           <div class="slide-wrap">
-  <!--- ADD IMAGE SLIDES HERE -->
               <section class="slider">
                 <ul class="slider1">
-                  <li><img src="/images/alpine-clouds.jpg"></li>
-                  <li><img src="/images/Seattle Skyline.jpeg"></li>
-                  <li><img src="/images/alpine-clouds.jpg"></li>
+                  <li><img src="/images/slider-image-1.png"></li>
+                  <li><img src="/images/slider-image-2.png"></li>
+                  <li><img src="/images/slider-image-3.png"></li>
                 </ul>
               </section>
         </div>
@@ -66,6 +66,7 @@
                   captions: false,
                   auto: true,
                   pager: false,
+                  controls: false,
               });
           </script>
           
@@ -86,6 +87,7 @@
 <!-- End Banner Wrapper --> 
 <div class="clearfix"></div>
 <!-- Start Parallax Section --> 
+<a name="services"></a>
     <section class="parallax-1">
         <div class="parallax-inner">
             <section class="one-third">
@@ -105,6 +107,7 @@
 <!-- End Parallax Section -->
 <div class="clearfix"></div>   
 <!-- Start Banner Wrapper -->
+<a name="reviews"></a>
     <section class="left-col">
         <h1>Heading Title Text</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem repellendus minima saepe eius voluptas magnam laboriosam sed omnis assumenda consectetur alias tempore, iusto, accusamus aliquid nisi. Impedit, atque excepturi.</p>
@@ -139,24 +142,26 @@
     <div id="banner-wrapper">
       <h1>Full Width Heading Title Section</h1>
       <section class="one-third">
-        <img src="images/pool3.webp">
+        <img src="images/girl-beach.png">
         <h3>Heading Title Text</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam maxime nemo molestias ducimus unde corrupti cumque, nisi qui autem dolor!</p>
       </section>
       <section class="one-third">
-        <img src="images/biker6.jpg">
+        <img src="images/girl-camera.png">
         <h3>Heading Title Text</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam maxime nemo molestias ducimus unde corrupti cumque, nisi qui autem dolor!</p>
       </section>
       <section class="one-third">
-        <img src="images/fakeCompany.png">
+        <img src="images/beach-camera.png">
         <h3>Heading Title Text</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam maxime nemo molestias ducimus unde corrupti cumque, nisi qui autem dolor!</p>
       </section>
     </div>
+<a name="contact"></a>
 <!-- End Banner Wrapper -->
-<footer>
-  <p>&copy; Mock up</p>
-</footer>   
+<div class="clearfix"></div>
+  <footer>
+    <p>&copy; Copyright</p>
+  </footer>   
 </body>
 </html>

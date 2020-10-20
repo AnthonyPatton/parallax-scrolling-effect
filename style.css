@@ -30,7 +30,7 @@ h3 {
 }
 p {
   padding: 2%;
-  color: #4A444;
+  color: #4A4444;
   text-align: justify;
 }
 img {
@@ -63,7 +63,7 @@ img {
   z-index: 5;
 }
 .slider .bx-wrapper .bx-prev {
-  background: #000 url("images/leftArrow.png") no-repeat 8px 13px;
+  background: #000 url("images/left-arrow-white.png") no-repeat 8px 13px;
   left: 0px;
   opacity: 0.3;
 }
@@ -71,7 +71,7 @@ img {
   opacity: 0.6;
 }
 .slider .bx-wrapper .bx-next {
-  background: #000 url("images/rightArrow.png") no-repeat 10px 12px;
+  background: #000 url("images/right-arrow-white.png") no-repeat 10px 12px;
   right: 0px;
   opacity: 0.3;
 }
@@ -79,6 +79,7 @@ img {
   opacity: 0.6;
 }
 /*--- End Image Slider Style ---*/
+
 .one-half {
   width: 44%;
   float: left;
@@ -98,8 +99,8 @@ img {
 }
 .sidebar {
   width: 26%;
-  float: right;
-  margin: 4% 4%;
+  float: left;
+  margin: 4%, 4%;
 }
 .sidebar img {
   opacity: 0.8;
@@ -107,6 +108,7 @@ img {
 .clearfix {
   clear: both;
 }
+
 /*--- Start Parallax Section --*/
 .parallax-1 {
   background: url(images/Seattle\ Skyline.jpeg) repeat fixed 100%;
@@ -124,6 +126,7 @@ img {
   color: #F1F1F1;
 }
 /*--- End Parallax Section ---*/
+
 footer {
   background: #262E37;
   width: 100%;
@@ -133,4 +136,34 @@ footer {
 }
 footer p {
   color: #FFF;
+}
+
+/*-- Media Queries --*/
+@media screen and (max-width: 768px) {
+  .slider .bx-wrapper .bx-controls {
+    display: none;
+  }
+  .parallax-inner {
+    display: none;
+  }
+  .one-third {
+    width: 100%;
+    margin: 4% 0;
+  }
+  .one-half {
+    display: none;
+  }
+  h1 {
+    font-size: 125%;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    padding-top: 3%;
+  }
 }
